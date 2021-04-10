@@ -1,0 +1,55 @@
+# Ignore bundler config.
+/.bundle
+package-lock.json
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+
+.DS_STORE
+.env
+.env.*
+.ignore
+.webpacker-*
+.webpacker_*
+jenkins-test.sh
+
+# Ignore VS Code related files
+.vscode
+*.code-workspace
+
+# Ignore vim swap files
+*.swp
+*.swo
+*.swn
+*.swm
+*.swl
+*.swk
+*.swj
+*.swi
+*.swh
+*.swg
+*.swf
+*.swb
+*.swd
+*.swe
+*.swc
+*.swa
+*.svz
+*.vim
+
+node_modules
+dist
+build
+
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+.browserslistrc
+.nvmrc
+*.iml
+.tags
